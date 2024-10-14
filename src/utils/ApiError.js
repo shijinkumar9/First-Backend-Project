@@ -20,4 +20,4 @@ class ApiError extends Error{ // overwriting the Error class with our own error 
     }
 }
 
-export default ApiError
+export { ApiError } 
